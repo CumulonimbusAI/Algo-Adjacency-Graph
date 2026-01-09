@@ -28,3 +28,15 @@ We then define displayGraph(). Here we traverse through the hash list which is t
 
 In the driver code, the vextex is set to 5 and graph object is initialized at line#45. Between line#47 and 59 graph edges are added. Then finally printed out by invoking displayGraph at line 61. 
 
+The result is:
+
+[ 0 ] :  -> 2 
+
+[ 1 ] :  -> 3 -> 2 -> 1 
+
+[ 2 ] :  -> 4 -> 3 -> 2 -> 1 -> 0 
+
+[ 3 ] :  -> 3 -> 2 -> 1 
+
+[ 4 ] :  -> 2 
+
